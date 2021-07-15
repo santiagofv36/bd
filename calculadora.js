@@ -1,7 +1,3 @@
-var scripts = document.getElementsByTagName('script');
-var index = scripts.length - 1;
-var myScript = scripts[index];
-console.log(myScript.src)
 const operacion = (x,y,op)=>{
 	if (op == 1){
 		return [parseInt(x)+parseInt(y),'+'];
